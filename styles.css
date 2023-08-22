@@ -4,3 +4,13 @@
     font-size: 14px;
     width: 100%;
 }
+
+.kroki {
+    overflow: auto;
+}
+
+.kroki>svg {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+}

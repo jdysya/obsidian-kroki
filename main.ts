@@ -72,6 +72,7 @@ export default class KrokiPlugin extends Plugin {
 
         // if (result.ok) {
         dest.innerHTML = result;
+        dest.classList.add("kroki");
         dest.children[0].setAttr("name", encodedSource);
         // }
         el.appendChild(dest);
